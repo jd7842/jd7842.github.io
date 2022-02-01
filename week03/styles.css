@@ -43,3 +43,6 @@ nav a {
     padding: 3px 60px 3px 3px;
     text-decoration: none;
   }
+  nav a:hover {
+    background-color: #7C1A00;
+  }
