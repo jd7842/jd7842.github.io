@@ -20,3 +20,14 @@ body {
   #container {
       margin-bottom: 30px;
   }
+  nav {
+    float: left;
+    width: 120px;
+  }
+  nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #7C1A00;
+  }
+  
