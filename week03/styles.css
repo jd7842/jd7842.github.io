@@ -17,3 +17,6 @@ body {
     background-position: left top;
     background-repeat: no-repeat;
   }
+  #container {
+      margin-bottom: 30px;
+  }
