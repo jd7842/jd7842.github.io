@@ -12,11 +12,29 @@
     <meta charset="utf-8">
     <title>Events</title>
     <script>
-        alert()
+    function myFunction() {
+  alert();
+}
     </script>
+     <style>
+        button {
+  font-size: 1.1em;
+  background-color: #ADEFFF;
+  color: #ffbdad;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px #999999;
+}
+button:hover, button:focus, button:active {
+  /* swap colors */
+  color: #EBF5FF;
+  background-color: #ffbdad;
+  cursor: pointer; /* displays a hand */
+}
+  </style>
   </head>
 
-  <body>
+  <body onload="myFunction()">
+    <button onclick="myFunction()">Click Me</button> 
 
-  </body>
-  </html>
+</body>
+</html>
